@@ -1,0 +1,21 @@
+/* Estrutura do site
+------------------------------------------------------------- */
+
+/* Zerando as configurações de margin e padding */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Corpo total da pagina */
+body {
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+	width: 1080px;
+	margin: 0 auto;
+	border: 2px solid red;
+}
+
+header {
+	border: 2px solid blue;
+	padding: 1%;
+}
