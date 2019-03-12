@@ -25,3 +25,52 @@ body {
 header {
 	border: 2px solid blue;
 }
+
+/* Logo do site */
+header img {
+	margin-left: 350px;
+}
+
+
+
+/* Formatação dos links em geral do site */
+a:link, a:active, a:visited {
+	color: #2E2EFE;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #585858;
+	text-decoration: none;
+}
+
+
+/* Menu de navegação */
+header nav {
+	padding: 20px;	
+}
+
+/* Elementos UL */
+header nav ul {
+	margin: 170px;
+	display: inline;	
+}
+
+
+/* Linhas do menu de navegação */
+header nav ul li {
+	display: inline;
+	padding: 20px;
+}
+
+header nav ul li a:link, a:active, a:visited {
+	color: #1C1C1C;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+header nav ul li a:hover {
+	color: #585858;
+	border-bottom: 1px solid #585858;
+}
