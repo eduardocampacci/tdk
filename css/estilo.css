@@ -46,31 +46,42 @@ a:hover {
 
 
 /* Menu de navegação */
-header nav {
+#nav {
 	padding: 20px;	
 }
 
 /* Elementos UL */
-header nav ul {
-	margin: 170px;
-	display: inline;	
+#nav ul {
+	margin-top: -20px;
+	text-align: center;
+	display: block;	
 }
 
 
 /* Linhas do menu de navegação */
-header nav ul li {
-	display: inline;
-	padding: 20px;
+#nav ul li {
+	display:inline-block;
+	padding: 10px;
+	background-color: #00C2C5;
+	border-radius: 4px;
+	box-shadow: 2px 2px 2px #116360;
+	margin: 2px;
 }
 
-header nav ul li a:link, a:active, a:visited {
+#nav ul li a:link, a:active, a:visited {
 	color: #1C1C1C;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: bold;
+	font-size: 14px;
 }
 
-header nav ul li a:hover {
-	color: #585858;
-	border-bottom: 1px solid #585858;
+#nav ul li a:hover {
+	color: white;
+	text-decoration: underline;
+	
+}
+#nav ul li:hover {
+ background-color: #006263;
+ box-shadow: none;
 }
