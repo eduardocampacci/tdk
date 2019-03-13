@@ -11,63 +11,48 @@
 	margin: 0;
 	padding: 0;
 }
-
 /* Corpo total da pagina */
 body {
 	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
 	width: 900px;
 	margin: 0 auto;
-	box-shadow: 4px 4px 4px grey;
-	border: 2px solid red;
+	box-shadow: ;
+	border: 2px  red;
 }
-
 /* Cabeçalho da pagina */
 header {
-	border: 2px solid blue;
+	border: 2px  blue;
 }
-
 /* Logo do site */
 header img {
 	margin-left: 350px;
 }
-
-
-
 /* Formatação dos links em geral do site */
 a:link, a:active, a:visited {
 	color: #2E2EFE;
 	text-decoration: none;
 }
-
 a:hover {
 	color: #585858;
 	text-decoration: none;
 }
-
-
 /* Menu de navegação */
 #nav {
 	padding: 20px;	
 }
-
 /* Elementos UL */
 #nav ul {
 	margin-top: -20px;
 	text-align: center;
 	display: block;	
+	border-bottom: solid 1px;
 }
-
-
 /* Linhas do menu de navegação */
 #nav ul li {
 	display:inline-block;
 	padding: 10px;
-	background-color: #00C2C5;
-	border-radius: 4px;
-	box-shadow: 2px 2px 2px #116360;
 	margin: 2px;
 }
-
 #nav ul li a:link, a:active, a:visited {
 	color: #1C1C1C;
 	text-decoration: none;
@@ -75,13 +60,6 @@ a:hover {
 	font-weight: bold;
 	font-size: 14px;
 }
-
 #nav ul li a:hover {
-	color: white;
 	text-decoration: underline;
-	
-}
-#nav ul li:hover {
- background-color: #006263;
- box-shadow: none;
 }
