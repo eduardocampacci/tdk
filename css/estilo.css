@@ -19,14 +19,17 @@ body {
 	box-shadow: ;
 	border: 2px  red;
 }
+
 /* Cabeçalho da pagina */
 header {
 	border: 2px  blue;
 }
+
 /* Logo do site */
 header img {
 	margin-left: 350px;
 }
+
 /* Formatação dos links em geral do site */
 a:link, a:active, a:visited {
 	color: #2E2EFE;
@@ -36,10 +39,12 @@ a:hover {
 	color: #585858;
 	text-decoration: none;
 }
+
 /* Menu de navegação */
 #nav {
 	padding: 20px;	
 }
+
 /* Elementos UL */
 #nav ul {
 	margin-top: -20px;
@@ -47,12 +52,14 @@ a:hover {
 	display: block;	
 	border-bottom: solid 1px;
 }
+
 /* Linhas do menu de navegação */
 #nav ul li {
 	display:inline-block;
 	padding: 14px 30px;
 	margin: 2px;
 }
+
 #nav ul li a:link, a:active, a:visited {
 	color: #1C1C1C;
 	text-decoration: none;
@@ -60,6 +67,20 @@ a:hover {
 	font-weight: bold;
 	font-size: 14px;
 }
+
 #nav ul li a:hover {
 	text-decoration: underline;
+}
+
+/*Lista dos icones*/
+#sociais ul {		
+	border: 1px solid orange;	
+}
+#sociais ul li {
+	display: inline-block;
+	padding: 4px 2px;
+	margin: 2px;
+	border: 1px solid red;
+
+	
 }
