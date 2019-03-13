@@ -81,3 +81,10 @@ a:hover {
 	padding: 4px 2px;
 	margin: 2px;
 }
+
+/*Imagem de capa, podendo ser um carrossel*/
+#capa img {
+	margin: 10px 60px;
+	width: 800px;
+	height: 300px;	
+}
