@@ -89,3 +89,14 @@ a:hover {
 	height: 300px;
 	border-radius: 8px;	
 }
+
+/* Estrutura das postagens e ou conteudo
+------------------------------------------------------------- */
+
+
+/* Estrutura do rodape
+------------------------------------------------------------- */
+footer {
+	background-color: #D8D8D8;
+	grid-area: footer;
+}
