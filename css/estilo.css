@@ -13,7 +13,7 @@
 }
 /* Corpo total da pagina */
 body {
-	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+	font: 14px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
 	width: 960px;
 	margin: 0 auto;
 	box-shadow: ;
@@ -72,6 +72,7 @@ a:hover {
 #sociais ul {
 	display: inline-block;
 	margin: 0% 43%;
+	padding-bottom: 10px;
 }
 #sociais ul li {
 	display: inline-block;
@@ -92,11 +93,35 @@ a:hover {
 
 /* Estrutura das postagens e ou conteudo
 ------------------------------------------------------------- */
-
+#postagens {
+	padding: 5px;
+	width: 600px;
+	height: 250px;
+	display: inline-block;
+}
+article {
+	padding: 10px;
+	margin: 20px;
+	background-color: #FAFAFA;
+}
+article section {	
+	padding: 10px;
+	margin: 20px;
+}
+aside {
+	width: 200px;
+	height: 250px;
+	display: inline-block;
+	padding: 10px;
+	margin: 20px;
+	background-color: #FAFAFA;
+}
+h1, h3, h4, p {
+	padding: 5px;
+}
 
 /* Estrutura do rodape
 ------------------------------------------------------------- */
 footer {
 	background-color: #D8D8D8;
-	grid-area: footer;
 }
