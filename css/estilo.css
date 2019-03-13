@@ -14,20 +14,20 @@
 /* Corpo total da pagina */
 body {
 	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
-	width: 900px;
+	width: 960px;
 	margin: 0 auto;
 	box-shadow: ;
-	border: 2px  red;
 }
 
 /* Cabeçalho da pagina */
 header {
-	border: 2px  blue;
+	/*border: 2px solid blue;*/
 }
 
 /* Logo do site */
 header img {
-	margin-left: 350px;
+	/*margin-left: 350px;*/
+	margin: 1% 40%;
 }
 
 /* Formatação dos links em geral do site */
@@ -42,7 +42,7 @@ a:hover {
 
 /* Menu de navegação */
 #nav {
-	padding: 20px;	
+	padding: 20px;
 }
 /* Elementos UL */
 #nav ul {
@@ -71,7 +71,7 @@ a:hover {
 /*Lista dos icones redes sociais*/
 #sociais ul {
 	display: inline-block;
-	margin: 0px 380px;
+	margin: 0% 43%;
 }
 #sociais ul li {
 	display: inline-block;
